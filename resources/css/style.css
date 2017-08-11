@@ -1,0 +1,251 @@
+body {
+    margin: 0;
+}
+
+h2 {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 38px;
+    letter-spacing: 1px;
+    color: #263645;
+}
+
+header {
+    display: flex;
+    height: 67px;
+    border-bottom: 1px solid #868686;
+    padding: 0 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+#logo {
+    width: 120px;
+    height: 22px;
+}
+
+nav {
+    font-family: Brandon Grotesque;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav span {
+    padding: 0 15px;
+}
+
+nav a {
+    color: #868686;
+    text-decoration: none;
+}
+
+#cart {
+    width: 35px;
+    height: 30px;
+    padding-left: 15px;
+}
+
+#logo {
+    padding-right: 15px;
+}
+
+#productMenu {
+    height: 240px;
+    width: 100%;
+    position: absolute; 
+    z-index: 50;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 1px #bfbfbf;
+}
+
+.menuCard {
+    margin: 0 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 220px;
+}
+
+.menuCard img {
+    max-width: 220px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.menuCard span {
+    font-family: Brandon Grotesque;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #4e4e4e;
+}
+
+.menuCard a {
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    color: #5F899E;
+}
+
+nav a:hover #productMenu{
+    display: flex;
+}
+
+main {
+    font-family: Brandon Grotesque;
+}
+
+.hero {
+    background: url(/resources/images/trialHeroImg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;    
+}
+
+.hero h2 {
+    margin-top: 0;
+}
+
+#trialOffer {
+    padding-top: 160px;
+    padding-left: 805px;
+    text-align: center;
+}
+
+.mainCTA {
+    background-color: #FA4A25;
+    color: #fff;
+    height: 45px;
+    padding: 0 25px;
+    font-family: Brandon Grotesque;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+}
+
+.hero .mainCTA {
+    float: right;
+    margin-right: 242px;
+}
+
+.trialMechanic h2 {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.trialMechanic img {
+    margin: 10px 295px;
+}
+
+.productRow {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.productCard {
+    display: flex;
+    flex-direction: column;
+    height: 559px;
+    width: 420px;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 40px 15px;
+    font-family: Brandon Grotesque;
+    font-size: 16px;
+    color: #868686;
+}
+
+.productCard img {
+    width: 420px;
+    margin-bottom: 30px;
+}
+
+#colorPicker {
+    width: 87px;
+    margin-top: 15px;
+}
+
+.featuredProducts {
+    margin-top: 65px;
+}
+
+.featuredProducts h2 {
+    text-align: center;   
+}
+
+.featuredProducts p {
+    text-align: center;
+    width: 315px;
+    margin: 0 auto;
+    font-family: Museo Sans;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    line-height: 25px;
+    color: #666666;
+}
+
+.meetHarrys h1 {
+    text-align: center;
+}
+
+#accordion {
+    display: flex;
+    justify-content: space-between;
+}
+
+#accordion h3 {
+    text-align: left;
+}
+
+.leftAccordion {
+    width: 33.3%;
+    height: 600px;
+    background-color:#DAF2FF;    
+}
+
+.midAccordion {
+    width: 33.3%;
+    height: 600px;
+    background-color:#DAF2FF;    
+}
+
+.rightAccordion {
+    width: 33.2%;
+    height: 600px;
+    background-color:#DAF2FF;    
+}
+
+.expander {
+    margin-left: 55px;
+    margin-top: 455px;
+}
+
+.expander h3 {
+    font-size: 24px;
+    font-weight: 500;
+    color: #263645;
+    letter-spacing: 0.8px;
+}
+
+#trumanFloating {
+    position: absolute;
+    margin-top: 200px;
+    left: 30%;
+    z-index: 10;
+}
