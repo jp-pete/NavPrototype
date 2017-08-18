@@ -2,7 +2,7 @@ $(document).ready(function() {
   $('#productMenu').hide();   
     
   $('#products').mouseenter(function() {
-    $('#productMenu').slideDown('fast'); 
+    $('#productMenu').slideDown('normal'); 
     });    
 
   $('#productMenu').mouseleave(function() {
